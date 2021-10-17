@@ -2,13 +2,12 @@
 *   Create Loader*/
 
 function newLocalQuote() {
-    let quote;
-    try {
+    let quote = "test";
         quote = localQuotes[Math.floor(Math.random() * localQuotes.length)];
         console.log(quote)
-    } catch (e) {
-        alert(e)
-    }
+        document.getElementById("quote").innerHTML = quote.text
+        document.getElementById("author").innerHTML = quote.author
+        console.log(document.getElementById("quote").innerHTML)
 }
 
 newLocalQuote();
