@@ -1,10 +1,3 @@
-//TODO lol
-//  Create Loader
-//  Dynamically adjust quote ids from 'quote' to 'long-quote' if quote is long
-//  Make twitter button share the quote text and author to Twitter (API?)
-//  Make new-quote button run newLocalQuote
-//
-
 const quoteContainer = document.getElementById('quote-container');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
